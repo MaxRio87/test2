@@ -1,0 +1,7 @@
+tests:
+  - name: leak
+    constraint: ../../../home/tracker/.cfg/tracker.yaml
+    cases:
+      - name: passwd
+        object: ../../../etc/passwd
+
